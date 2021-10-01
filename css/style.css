@@ -43,7 +43,7 @@ main    {
     margin-bottom: 20px;
 }
 
-.sidebar, .widget {
+.cl-sx, .cl-dx {
     width: 20%;
 }
 
