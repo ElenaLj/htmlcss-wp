@@ -107,6 +107,7 @@ main    {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border: 1px solid lightgrey;
     border-radius: 20px;
 }
 
@@ -123,7 +124,7 @@ main    {
 }
 
 .caption {
-    margin: 10px 0;
+    margin: 20px 0;
     display: block;
     font-size: 25px;
 }
@@ -159,7 +160,7 @@ main    {
 }
 
 /* *** debug *** */
-/* .debug .page-header {
+.debug .page-header {
     height: 200px;
     background-color: #e579e6;
 }
@@ -185,5 +186,5 @@ main    {
 
 .debug .footer {
     background-color: #8801fe;
-} */
+}
 
