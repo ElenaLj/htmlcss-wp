@@ -10,6 +10,10 @@
     margin: 25px auto;
 }
 
+body {
+font-family: 'Roboto', sans-serif;;
+}
+
 /* *** header *** */
 .page-header {
     width: 100%;
@@ -49,7 +53,6 @@ li {
 
 /* *** main *** */
 main    {
-    background-color: #0086ff;
     padding-bottom: 20px;
     margin-bottom: 10px;
 }
@@ -57,6 +60,16 @@ main    {
     content: "";
     clear: both;
     display: table;
+}
+
+#title {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#subtitle {
+    font-size: 30px;
+    color: #9b9b9b;
 }
 
 .main-heading {
@@ -94,6 +107,9 @@ main    {
     background-color: #e1d67a;
 }
 
+.debug main {
+    background-color: #0086ff;
+}
 .debug .main-heading {
     background-color: #abcfe7;
     height: 100px;
