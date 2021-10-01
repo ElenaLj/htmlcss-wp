@@ -47,6 +47,21 @@ li {
     border-radius: 20px;
 }
 
+.upper-img-text {
+    padding-top: 350px;
+    padding-left: 50px;
+    padding-right: 300px;
+    font-size: 45px;
+    color: white;
+}
+
+.lower-img-text {
+    padding-left: 50px;
+    padding-right: 300px;
+    color: white;
+    font-size: 30px;
+}
+
 .margin {
     margin-bottom: 20px;
 }
@@ -115,8 +130,8 @@ main    {
     height: 100px;
 }
 
-.debug .left, 
-.debug .main-content, 
+.debug .left,
+.debug .main-content,
 .debug .widget {
     background-color: #abcfe7;
     height: 700px;
