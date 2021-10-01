@@ -15,7 +15,7 @@
     width: 100%;
 }
 
-#logo   {
+#logo {
     padding-right: 20px;
     border-right: 1px solid lightgray;
 }
@@ -34,7 +34,13 @@ li {
 }
 
 .jumbotron {
+    height: 600px;
     width: 100%;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
 }
 
 .margin {
@@ -85,7 +91,6 @@ main    {
 }
 
 .debug .jumbotron {
-    height: 500px;
     background-color: #e1d67a;
 }
 
