@@ -20,6 +20,19 @@
     border-right: 1px solid lightgray;
 }
 
+li {
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+    color: #9b9b9b;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.mr {
+    margin-right: 20px;
+}
+
 .jumbotron {
     width: 100%;
 }
