@@ -113,9 +113,10 @@ main    {
     background-image: url(../img/img-3.jpg);
 }
 
-span {
-    margin: 5px 0;
+.caption {
+    margin: 10px 0;
     display: block;
+    font-size: 25px;
 }
 
 .content {
@@ -132,14 +133,20 @@ span {
 }
 
 .main-content {
-    width: 54%;
-    margin: 0 3%;
+    width: 56%;
+    margin: 0 2%;
 }
 
 
 /* *** footer *** */
 .footer {
     height: 70px;
+    text-align: center;
+}
+
+#heart {
+    color: red;
+    text-align: center;
 }
 
 /* *** debug *** */
