@@ -93,6 +93,15 @@ main    {
     margin-bottom: 20px;
 }
 
+.img-border {
+    border-radius: 20px;
+}
+
+.content {
+    color: #9b9b9b;
+    font-size: 20px;
+}
+
 .cl-sx, .cl-dx {
     width: 20%;
 }
@@ -113,7 +122,7 @@ main    {
 }
 
 /* *** debug *** */
-.debug .page-header {
+/* .debug .page-header {
     height: 200px;
     background-color: #e579e6;
 }
@@ -140,4 +149,4 @@ main    {
 .debug .footer {
     background-color: #8801fe;
 }
-
+ */
